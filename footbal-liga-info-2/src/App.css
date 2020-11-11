@@ -1,0 +1,48 @@
+body{
+  background-image: url('bg2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.judul{
+  text-align: center;
+  color:#FFF;
+}
+.image-left{
+  width:60px;
+  height: 60px;
+   border-radius: 50%;
+  overflow: hidden;
+}
+.image-left img{
+  width:100%;
+}
+.image-left-klasmen{
+  width:30px;
+  height: 30px;
+   border-radius: 50%;
+  overflow: hidden;
+}
+.image-left img{
+  width:100%;
+}
+.card{
+  background-color: rgba(255,255,255,0.9);
+}
+.card-green{
+  background-color: rgba(26, 188, 156, 0.85);
+  color:#FFF;
+  cursor: pointer;
+
+}
+.card-blue{
+  background-color: rgba(52, 152, 219,0.85);
+  color:#FFF;
+  cursor: pointer;
+}
+.card-blue:hover{
+  background-color: rgba(52, 152, 219,1);
+}
+.card-green:hover{
+  background-color: rgba(26, 188, 156, 1);
+}
